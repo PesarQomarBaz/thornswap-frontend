@@ -1,8 +1,8 @@
-# Contributing to the SaltSwap ecosystem 🧂
+# Contributing to the ThornSwap ecosystem 🧂
 
 Thank you for taking the time to contribute!
 
-You can start by reading our [Contribution guidelines](https://docs.saltswap.finance/code/contributing) first.
+You can start by reading our [Contribution guidelines](https://docs.thornswap.finance/code/contributing) first.
 
 ## Setup
 
@@ -65,5 +65,5 @@ TranslateString(id, 'fallback', data)
 If a Crowdin translation like this `You have %num% left in your wallet` - would look something like:
 
 ```
-TranslateString(675, `You have ${saltBalance} left in your wallet`, { num: saltBalance })
+TranslateString(675, `You have ${saltBalance} left in your wallet`, { num: thornBalance })
 ```

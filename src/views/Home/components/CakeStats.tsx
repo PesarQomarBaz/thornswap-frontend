@@ -25,24 +25,24 @@ const CakeStats = () => {
   const totalSupply = useTotalSupply()
   const burnedBalance = useBurnedBalance(getCakeAddress())
   const cakeSupply = totalSupply ? getBalanceNumber(totalSupply) - getBalanceNumber(burnedBalance) : 0
-
+  
   return (
     <StyledCakeStats>
       <CardBody>
         <Heading size="xl" mb="24px">
-          {TranslateString(534, 'Salty Stats')}
+          {TranslateString(534, 'thorny Stats')}
         </Heading>
         <Row>
-          <Text fontSize="14px">{TranslateString(536, 'Total SALT Supply')}</Text>
+          <Text fontSize="14px">{TranslateString(536, 'Total Thorn Supply')}</Text>
           {cakeSupply && <CardValue fontSize="14px" value={cakeSupply} />}
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(538, 'Total SALT Burned')}</Text>
+          <Text fontSize="14px">{TranslateString(538, 'Total Thorn Burned')}</Text>
           <CardValue fontSize="14px" value={getBalanceNumber(burnedBalance)} />
         </Row>
         <Row>
-          <Text fontSize="14px">{TranslateString(540, 'New SALT/block')}</Text>
-          <CardValue fontSize="14px" decimals={0} value={25} />
+          <Text fontSize="14px">{TranslateString(540, 'New Thorn/block')}</Text>
+          <CardValue fontSize="14px" decimals={0} value={2} />
         </Row>
       </CardBody>
     </StyledCakeStats>
