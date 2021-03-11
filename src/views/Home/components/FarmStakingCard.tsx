@@ -59,7 +59,7 @@ const FarmedStakingCard = () => {
         <Heading size="xl" mb="24px">
           {TranslateString(542, 'Farms & Staking')}
         </Heading>
-        <CardImage src="/images/Thorn.jpg" alt="thorn logo" width={64} height={64} />
+        <CardImage src="/images/ticket.svg" alt="thorn logo" width={64} height={64} />
         <Block>
           <Label>{TranslateString(544, 'THORN to Harvest')}:</Label>
           <CakeHarvestBalance />
